@@ -1,5 +1,4 @@
 import React from "react";
-import StarfieldAnimation from "react-starfield-animation";
 import Navbar from "../Components/Navbar";
 import { useState } from "react/cjs/react.development";
 import { useAuth } from "../Components/Auth.context";
@@ -74,13 +73,6 @@ export default function Opinion() {
   } else {
     return (
       <div className={styles.welcome}>
-        <StarfieldAnimation
-          style={{
-            position: "absolute",
-            width: "90%",
-            height: "80%",
-          }}
-        ></StarfieldAnimation>
         <h5>
           Welcome.Please <a href="/login">Login!</a>
         </h5>

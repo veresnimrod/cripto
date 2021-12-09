@@ -3,7 +3,6 @@ import { useState } from "react/cjs/react.development";
 import { useAuth } from "../Components/Auth.context";
 import styles from "../Components/Css/Home.module.css";
 import axios from "axios";
-import StarfieldAnimation from "react-starfield-animation";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ReactPlayer from "react-player";
@@ -219,13 +218,6 @@ export const Home = () =>{
   } else {
     return (
       <div className={styles.welcome}>
-        <StarfieldAnimation
-          style={{
-            position: "absolute",
-            width: "90%",
-            height: "80%",
-          }}
-        ></StarfieldAnimation>
 
         <h5>
           Welcome.Please <a href="/login">Login!</a>
