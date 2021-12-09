@@ -9,7 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import ReactPlayer from "react-player";
 import Navbar from "../Components/Navbar";
 
-export default function Home() {
+export const Home = () =>{
   const notify = () => toast.warn("Deleted from Favorites!");
   const { auth } = useAuth();
   const [CoinList, setCoinList] = useState(null);
@@ -237,3 +237,4 @@ export default function Home() {
     );
   }
 }
+export default Home;
