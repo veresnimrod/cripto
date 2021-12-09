@@ -12,7 +12,7 @@ export const Crypto = () => {
   const [coins, setCoins] = useState(null);
   const [search, setSearch] = useState("");
 
-  useEffect(() => {
+  React.useEffect(() => {
     axios.get(url).then((response) => {
       setCoins(response.data);
     });

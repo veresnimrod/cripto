@@ -100,6 +100,16 @@
         "solana"
       ],
       "id": 9
+    },
+    {
+      "email": "nimi@gmail.com",
+      "password": "$2a$10$m3TNcTknr9wrwXWzQkX27O1NcVEC2IBi51nmBOzt6PvufIdgzTNOi",
+      "firstname": "nimi",
+      "lastname": "nimi",
+      "username": "nimi",
+      "url": "http://res.cloudinary.com/dfrvtlslz/image/upload/v1639076372/yzkze0kpgjinaeeajpkq.png",
+      "favorites": [],
+      "id": 10
     }
   ],
   "comments": [
