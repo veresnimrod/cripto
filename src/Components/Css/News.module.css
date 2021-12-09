@@ -1,0 +1,77 @@
+.container {
+  margin: 0 auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1em;
+}
+.article {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 22rem;
+  border: 1px solid white;
+  background-image: linear-gradient(
+    to left,
+    #1945a3,
+    #1e9587,
+    #27a06d,
+    #f1dec5,
+    #42bdd3
+  );
+  border-radius: 5px;
+}
+.article:hover {
+  background-color: rgb(217, 246, 217);
+  cursor: pointer;
+}
+.articletext {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.articleimgholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.articleimg {
+  margin: 5px 5px;
+  height: 80%;
+  width: 90%;
+  overflow: hidden;
+  border: 2px solid grey;
+}
+.list {
+  list-style: none;
+  font-size: 10px;
+}
+.title {
+  margin-top: -4rem;
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  color: rgb(93, 197, 145);
+}
+.date {
+  margin-top: -4rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: rgb(93, 197, 145);
+}
+@media (max-width:500px){
+  .article{
+    width: 100%;
+    font-size: 1rem;
+  }
+  .title h1{
+    margin-bottom: 40px;
+    font-size: 3rem;
+  }
+  .articletext li{
+    font-size: 0.5rem;
+  }
+}

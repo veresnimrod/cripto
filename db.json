@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "email": "nimrod@gmail.com",
+      "password": "$2a$10$0xIUnS8ht9dy3QrcFv3VNOjXwFWj9OzjZkfvcffGxQ1re6jeVpcKe",
+      "firstname": "nimrod",
+      "lastname": "nimrod",
+      "username": "nimrod",
+      "url": "http://res.cloudinary.com/dfrvtlslz/image/upload/v1636811122/nztppmujqtpytveqcvb2.jpg",
+      "favorites": [
+        "solana",
+        "ethereum",
+        "bitcoin",
+        "cardano",
+        "tether"
+      ],
+      "id": 2
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$87Tt3kDiR7wD1uJbIm/1d.5vW8jxViJUV2/LmXaS/P/vy7SSIFgOS",
+      "firstname": "dsad",
+      "lastname": "test",
+      "username": "test",
+      "url": "http://res.cloudinary.com/dfrvtlslz/image/upload/v1636820704/o9epnwmhveuy36abezeh.jpg",
+      "favorites": [
+        "solana",
+        "dogecoin",
+        "cardano",
+        "shiba-inu",
+        "bitcoin",
+        "usd-coin",
+        "tether"
+      ],
+      "id": 3
+    },
+    {
+      "email": "test@gmail.comt",
+      "password": "$2a$10$Z1pYM7FHlEdrmYQBp68vEuNguIjClkvk/PDKuWUV5JxVDUGqJKvWu",
+      "firstname": "test2",
+      "lastname": "test",
+      "username": "test",
+      "url": "http://res.cloudinary.com/dfrvtlslz/image/upload/v1636822788/f2ajvzhrcwtfgwr5m8ro.jpg",
+      "favorites": [
+        "bitcoin",
+        "ethereum"
+      ],
+      "id": 4
+    },
+    {
+      "email": "alma@gmail.com",
+      "password": "$2a$10$JttvVnX/tUHBTi2OphQq7uOO16HrdGnxZK6yYLi5GA5cX2m3dvI0O",
+      "firstname": "alma",
+      "lastname": "alma",
+      "username": "alma",
+      "url": "http://res.cloudinary.com/dfrvtlslz/image/upload/v1637078903/fxsdhcx0ij1qprcyhkbl.jpg",
+      "favorites": [],
+      "id": 6
+    },
+    {
+      "email": "user1@gmail.com",
+      "password": "$2a$10$TSq5DH5WJeNYKYVBSAXFq.ZvEqo2JT0yEODR53vQQnEPKNhCvKC6q",
+      "firstname": "user1",
+      "lastname": "user1",
+      "username": "user1",
+      "url": "http://res.cloudinary.com/dfrvtlslz/image/upload/v1637140164/i5phc9foo89csqncft2z.jpg",
+      "favorites": [
+        "tether",
+        "bitcoin",
+        "solana",
+        "cardano",
+        "polkadot",
+        "usd-coin"
+      ],
+      "id": 7
+    },
+    {
+      "email": "veres@gmail.com",
+      "password": "$2a$10$2i9U.530cWyuImAHM06kx.dLZK4RlsNk1SZLU5r2DWkh7iEN.FWX6",
+      "firstname": "veres",
+      "lastname": "veres",
+      "username": "veres",
+      "url": "http://res.cloudinary.com/dfrvtlslz/image/upload/v1637146465/jnkorjwkfmpqf7ylqf80.jpg",
+      "favorites": [
+        "polkadot",
+        "ripple",
+        "solana",
+        "binancecoin"
+      ],
+      "id": 8
+    },
+    {
+      "email": "user2@gmail.com",
+      "password": "$2a$10$xlIIjlJFmma7HQ2ms6k9Xet4O5Mg0JNq4slcDId1mbM3lp9lWyYkq",
+      "firstname": "user2",
+      "lastname": "user2",
+      "username": "user2",
+      "url": "http://res.cloudinary.com/dfrvtlslz/image/upload/v1637158998/quodado7apbo5z8dpn4g.jpg",
+      "favorites": [
+        "solana"
+      ],
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "userid": 3,
+      "name": "test",
+      "favorite": "Shiba",
+      "worst": "XRP",
+      "id": 1
+    },
+    {
+      "userid": 2,
+      "name": "nimrod",
+      "favorite": "Shiba",
+      "worst": "bitcoin",
+      "id": 2
+    },
+    {
+      "userid": 2,
+      "name": "nimrod",
+      "favorite": "Shiba",
+      "worst": "spell",
+      "id": 3
+    },
+    {
+      "userid": 7,
+      "name": "user1",
+      "favorite": "shiba",
+      "worst": "ripple",
+      "id": 5
+    },
+    {
+      "userid": 8,
+      "name": "veres",
+      "favorite": "ether",
+      "worst": "ether",
+      "id": 6
+    },
+    {
+      "userid": 9,
+      "name": "user2",
+      "favorite": "bitcoin",
+      "worst": "shiba",
+      "id": 7
+    },
+    {
+      "userid": 5,
+      "name": "admin",
+      "favorite": "Shiba",
+      "worst": "XRP",
+      "id": 8
+    }
+  ]
+}

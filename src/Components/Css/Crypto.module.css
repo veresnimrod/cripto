@@ -1,0 +1,191 @@
+body {
+  background-image: url("https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-4.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  border-bottom: 1px solid rgb(67, 156, 172);
+}
+.container:hover {
+  background-image: linear-gradient(
+    to right,
+    #1945a3,
+    #1e9587,
+    #27a06d,
+    #afa9a1,
+    #195762
+  );
+  transform: scale(1.1);
+}
+.coinrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 0rem 4rem;
+}
+.coin {
+  display: flex;
+  align-items: center;
+  padding-right: 6rem;
+}
+.coinimg {
+  height: fit-content;
+  max-width: 80px;
+  margin-right: 5rem;
+  cursor: pointer;
+}
+.coin_h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2.5rem;
+  width: 12rem;
+  margin-right: 6rem;
+  color: blanchedalmond;
+}
+.coin_symbol {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: blanchedalmond;
+}
+.coin_data {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-right: 4rem;
+}
+.coin_price {
+  vertical-align: middle;
+  width: 3rem;
+  font-size: 30px;
+  color: blanchedalmond;
+}
+.coin_marketcap {
+  margin-right: 20px;
+  font-size: 1.5rem;
+  color: blanchedalmond;
+}
+.red {
+  color: rgb(226, 15, 15);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.green {
+  color: rgb(38, 216, 38);
+  width: fit-content;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.textinfo {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(37, 132, 177);
+}
+.search h1 {
+  font-size: 3rem;
+  color: rgb(93, 197, 145);
+}
+.search input {
+  height: fit-content;
+  width: 18rem;
+  margin-bottom: 6rem;
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    #1945a3,
+    #1e9587,
+    #27a06d,
+    #f1dec5,
+    #42bdd3
+  );
+  font-size: 2rem;
+  color: rgb(13, 13, 14);
+  padding-right: 1rem;
+}
+.search input::placeholder {
+  color: rgb(138, 206, 191);
+}
+.favorite {
+  font-size: 2rem;
+  height: fit-content;
+  width: fit-content;
+  color: rgb(93, 197, 145);
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 2px 3px rgb(93, 197, 145);
+  cursor: pointer;
+}
+.welcome {
+  font-size: 4rem;
+  margin: 0 100px;
+  color: rgb(41, 189, 115);
+}
+.welcome a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: rgb(45, 241, 143);
+  font-size: 4rem;
+  font-style: italic;
+}
+@media (max-width:500px)
+{
+.container{
+  max-width: 70%;
+}
+.coin h1{
+  font-size: 1rem;
+  width: 1rem;
+  margin-right: 3rem;
+}
+.coin img{
+  margin-right: 1rem;
+}
+.coin p{
+  font-size: 1rem;
+  margin-right: 6rem;
+}
+.coin_data p{
+  font-size: 1rem;
+}
+.coin_marketcap{
+  font-size: 1rem;
+  margin:0;
+}
+.coin_data{
+  display: flex;
+}
+.coin_price{
+  margin-right: 1rem;
+}
+.favorite{
+  font-size: 1rem;
+}
+
+
+}

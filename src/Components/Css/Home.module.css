@@ -1,0 +1,246 @@
+.welcome {
+  margin: 50px 100px;
+  font-size: 60px;
+  color: rgb(41, 189, 115);
+  font-weight: 900;
+}
+.welcome a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: rgb(45, 241, 143);
+  font-size: 60px;
+  font-style: italic;
+}
+.favorite h2 {
+  color: rgb(41, 189, 115);
+  text-align: center;
+  font-size: 2rem;
+}
+.infocontainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 90%;
+  height: fit-content;
+  overflow: hidden;
+  background-color: rgba(26, 25, 25, 0.5);
+  border-radius: 50px;
+}
+.dailyinfo {
+  margin: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 70%;
+  grid-template-rows: 40% 40%;
+  grid-gap: 15px;
+  overflow: hidden;
+}
+.container {
+  color: blanchedalmond;
+}
+.winner {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(97, 167, 57, 0.5);
+  border-radius: 50px;
+}
+.dailytitle {
+  height:fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dailyimg {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dailyimg img {
+  height: 70px;
+  width: 70px;
+}
+.dailyname {
+  height: 2rem;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dailyprice {
+  height: 2rem;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dailypercent {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.winner h3 {
+  margin: 0 auto;
+}
+.loser {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(218, 50, 28, 0.5);
+  border-radius: 50px;
+}
+.loser h3 {
+  margin: 0 auto;
+}
+.red {
+  color: red;
+}
+.green {
+  color: rgb(41, 236, 41);
+}
+.coinrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height:fit-content;
+  padding: 5px;
+  border-bottom: 1px solid rgb(67, 156, 172);
+  text-align: center;
+}
+.coinrow img {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+}
+.coinname {
+  margin: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+}
+.coinname h1 {
+  width: 4rem;
+  height: fit-content;
+}
+.coinprice {
+  position: relative;
+  height:fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.coinprice h1 {
+  width: fit-content;
+  height: fit-content;
+}
+.coincurrentprice {
+  max-width: 100px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.deleteicon button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  color: red;
+  font-weight: 1000;
+  background-color: black;
+  cursor: pointer;
+}
+.player {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px auto;
+  width: 80%;
+  height: fit-content;
+}
+.videobox {
+  margin: 10px 10px;
+  padding: 5px;
+  max-height: fit-content;
+  max-width: fit-content;
+  border: 2px solid rgb(0, 3, 0);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: grey;
+}
+.opinion {
+  border: 2px solid black;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  background: black;
+  color: rgb(93, 197, 145);
+}
+.myopinion {
+  text-align: center;
+}
+@media (max-width:500px){
+  .infocontainer{ 
+    max-width: 90%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  .favorite h2{
+    font-size: 1rem;
+  }
+  .favorite{
+    width: 100%;
+    font-size: 0.5rem;
+  }
+  .coinprice h1{
+    font-size:1rem;
+  }
+  .welcome{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .dailyinfo{
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    font-size: 0.5rem;
+  }
+  .winner{
+  max-width: 50%;
+  }
+  .loser{
+    max-width: 50%;
+  }
+  .red{
+    font-size:2rem;
+  }
+  .green{
+    font-size: 2rem;
+  }
+  .player{
+    display:flex;
+    flex-direction: column;
+  }
+
+}

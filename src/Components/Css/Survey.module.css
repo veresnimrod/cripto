@@ -1,0 +1,53 @@
+.container {
+  margin: 0 auto;
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(93, 197, 145);
+  background-color: rgba(26, 25, 25, 0.5);
+  text-transform: capitalize;
+}
+.name {
+  margin: 2rem auto;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.name input {
+  width: 66%;
+  font-size: 2rem;
+  color: rgb(93, 197, 145);
+  text-transform: capitalize;
+}
+.best {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.best input {
+  width: 50%;
+  font-size: 2rem;
+  color: rgb(93, 197, 145);
+  text-transform: capitalize;
+}
+.worst {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.worst input {
+  width: 50%;
+  font-size: 2rem;
+  color: rgb(93, 197, 145);
+  text-transform: capitalize;
+}
+.button {
+  margin: 2rem auto;
+  font-size: 2rem;
+  display: flex;
+}

@@ -1,0 +1,20 @@
+.navbar {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.list {
+  font-size: 2rem;
+  margin: 0 auto;
+  display: flex;
+  list-style: none;
+}
+.listitem {
+  margin: 0 15px;
+  text-align: none;
+  color: rgb(93, 197, 145);
+  cursor: pointer;
+}
+.pages a {
+  text-align: none;
+}

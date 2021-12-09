@@ -1,0 +1,89 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  height: fit-content;
+  width: 700px;
+  border-radius: 5px;
+  border-top: 1px solid seagreen;
+  border-bottom: 2px solid rgb(68, 223, 235);
+  border-left: 1px solid seagreen;
+  border-right: 1px solid rgb(68, 223, 235);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container h1 {
+  margin: 0 auto;
+  color: rgb(56, 177, 96);
+  font-size: 3rem;
+  font-weight: 1000;
+  text-shadow: 1px 2px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.form {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inputcontainer {
+  margin: 15px;
+  height: 50px;
+}
+.inputcontainer ::placeholder {
+  color: black;
+}
+.inputcontainer input {
+  height: fit-content;
+  width: 100%;
+  font-size: 2rem;
+  color: black;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    to right,
+    #1945a3,
+    #1e9587,
+    #27a06d,
+    #f1dec5,
+    #42bdd3
+  );
+}
+.error {
+  font-size: 1.5rem;
+  color: rgb(226, 16, 16);
+  font-weight: 700;
+  font-style: italic;
+}
+.photo {
+  color: rgb(56, 177, 96);
+  text-align: center;
+}
+.photo h2 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+}
+.signup {
+  font-size: 2rem;
+  margin: 10px 10px;
+  height: fit-content;
+  background-image: linear-gradient(
+    to right,
+    #1945a3,
+    #1e9587,
+    #27a06d,
+    #f1dec5,
+    #42bdd3
+  );
+  border-radius: 5px;
+}
+.apiError {
+  color: red;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 10px auto;
+}
