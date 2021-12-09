@@ -108,7 +108,10 @@
       "lastname": "nimi",
       "username": "nimi",
       "url": "http://res.cloudinary.com/dfrvtlslz/image/upload/v1639076372/yzkze0kpgjinaeeajpkq.png",
-      "favorites": [],
+      "favorites": [
+        "bitcoin",
+        "ethereum"
+      ],
       "id": 10
     }
   ],

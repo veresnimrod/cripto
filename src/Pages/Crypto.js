@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import styles from "../Components/Css/Crypto.module.css";
 import { useState } from "react";
-import { useEffect } from "react/cjs/react.development";
+import { useEffect } from "react";
 import { Coins } from "../Components/Coins";
 import Navbar from "../Components/Navbar";
 
@@ -12,7 +12,7 @@ export const Crypto = () => {
   const [coins, setCoins] = useState(null);
   const [search, setSearch] = useState("");
 
-  React.useEffect(() => {
+  useEffect(() => {
     axios.get(url).then((response) => {
       setCoins(response.data);
     });

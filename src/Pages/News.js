@@ -83,6 +83,7 @@ export const News = () => {
         ></Pagination>
       </>
     );
-  } else return <></>;
+  } else return <>
+  <h2>Requests from the browser are not allowed on the Developer plan, except from localhost.</h2></>;
 };
 export default News;
