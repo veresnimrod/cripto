@@ -1,6 +1,6 @@
 import axios from "axios";
 import React from "react";
-import { useState, useEffect } from "react/cjs/react.development";
+import { useState, useEffect } from "react";
 import styles from "../Components/Css/News.module.css";
 import Pagination from "../Components/Pagination";
 import Navbar from "../Components/Navbar";

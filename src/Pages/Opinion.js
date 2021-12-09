@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import { useAuth } from "../Components/Auth.context";
 import { useEffect } from "react";
 import styles from "../Components/Css/Opinion.module.css";
